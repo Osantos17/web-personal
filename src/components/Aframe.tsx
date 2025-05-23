@@ -42,7 +42,7 @@ function AFrame() {
         </Swiper>
         <div >
 
-        <div className="sm-text-xs text-white text-center mx-3 md:text-xl md:mx-8  lg:mt-6 lg:mx-16 lg:text-2xl lg:leading-relaxed">
+        <div className="text-xs text-white text-center mx-3 md:text-xl md:mx-8  lg:mt-6 lg:mx-16 lg:text-2xl lg:leading-relaxed">
           A-Frame was inspired by my passion for surfing and the need for a simpler, more intuitive forecast tool. Designed to highlight key conditions without clutter, the app continues to evolve through user feedback, with features like Favorites and expanded swell and wind data for improved accuracy.
         </div>
 
