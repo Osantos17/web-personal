@@ -26,7 +26,6 @@ body {
   font-size: 18px;
 
 
-  /* Center slide text vertically */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -47,6 +46,6 @@ body {
 }
 
 .swiper-scrollbar-drag {
-  background: #10b981; /* scrollbar thumb (green example) */
+  background: #10b981; 
   border-radius: 10px;
 }

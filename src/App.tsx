@@ -12,7 +12,7 @@ function App() {
         <div>
           <AboutMe />
         </div>
-        <div className='mt-10 lg:mt-30'>
+        <div className='mt-0 lg:mt-30'>
           <Aframe />
         </div>
         <div className='mt-12'>

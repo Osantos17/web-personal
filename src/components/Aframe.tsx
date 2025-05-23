@@ -8,7 +8,7 @@ import './AFrame.css'
 function AFrame() {
 
   return(
-    <div>
+    <div className='aFrame'>
       <div>
         <Swiper
           scrollbar={{
