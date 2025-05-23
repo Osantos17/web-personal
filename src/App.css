@@ -1,0 +1,15 @@
+/* in your global CSS (e.g., App.css) */
+:root {
+  --vh: 100%;
+}
+
+@media (orientation: landscape) {
+  :root {
+    --vh: 100vh; /* fallback */
+  }
+}
+
+html,
+body {
+  height: calc(var(--vh, 100vh));
+}
