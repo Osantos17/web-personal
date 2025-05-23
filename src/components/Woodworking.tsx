@@ -30,14 +30,14 @@ function WoodWorking() {
             <img
               src="/images/CribCoop.png"
               alt="CribCoop"
-              className="max-h-auto max-w-full mb-8 lg:max-w-100 lg:max-h-175"
+              className="max-h-55 max-w-full mb-4 lg:max-w-100 lg:max-h-175"
             />
           </SwiperSlide>
           <SwiperSlide className="lg:mb-16">
             <img
               src="/images/FireToddler.png"
               alt="FireToddler"
-              className="max-h-auto max-w-full mb-8 lg:max-w-100 lg:max-h-175"
+              className="max-h-55 max-w-full mb-4 lg:max-w-100 lg:max-h-175"
             />
           </SwiperSlide>
 
