@@ -50,7 +50,7 @@ function Icons() {
             <img
               src="/images/CV.png"
               alt="Orlandos-Resume"
-              className="hover:opacity-80 transition h-6 mb-4 w-max-auto lg:h-14 lg:w-max-auto"
+              className="hover:opacity-80 transition h-6 mb-4 w-max-auto md:h-13 lg:h-14 w-max-auto"
             />
           </a>
         </div>
