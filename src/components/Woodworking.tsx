@@ -37,7 +37,7 @@ function WoodWorking() {
             <img
               src="/images/FireToddler.png"
               alt="FireToddler"
-              className="max-h-auto max-w-full lg:max-w-100 lg:max-h-175"
+              className="max-h-auto max-w-full mb-8 lg:max-w-100 lg:max-h-175"
             />
           </SwiperSlide>
 
