@@ -11,7 +11,7 @@ function WoodWorking() {
         Woodworking for me is about creating pieces that are both beautiful and functional. Every detail matters, once the first cut is made, there's no turning back. Crafting my son’s crib from a walnut slab was my proudest and most challenging project. While some builds focus more on function than design, the same level of planning and precision goes into every piece.
       </div>
 
-      <div className="w-1/2 ml-auto lg:w-2/5">
+      <div className="w-1/2 ml-auto mt-1 lg:w-2/5">
         <Swiper
           scrollbar={{
             hide: false,
@@ -26,18 +26,18 @@ function WoodWorking() {
           className="mySwiper"
         >
 
-          <SwiperSlide className="flex justify-center items-center lg:mb-16">
+          <SwiperSlide className="lg:mb-16">
             <img
               src="/images/CribCoop.png"
               alt="CribCoop"
-              className="max-h-auto max-w-full lg:max-w-100 lg:max-h-170"
+              className="max-h-auto max-w-full mb-8 lg:max-w-100 lg:max-h-175"
             />
           </SwiperSlide>
-          <SwiperSlide className="flex justify-center items-center lg:mb-16">
+          <SwiperSlide className="lg:mb-16">
             <img
               src="/images/FireToddler.png"
               alt="FireToddler"
-              className="max-h-auto max-w-full lg:max-w-100 lg:max-h-170"
+              className="max-h-auto max-w-full lg:max-w-100 lg:max-h-175"
             />
           </SwiperSlide>
 
