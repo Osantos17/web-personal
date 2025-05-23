@@ -1,11 +1,10 @@
-/* in your global CSS (e.g., App.css) */
 :root {
   --vh: 100%;
 }
 
 @media (orientation: landscape) {
   :root {
-    --vh: 100vh; /* fallback */
+    --vh: 100vh; 
   }
 }
 
