@@ -1,7 +1,7 @@
 import './App.css'
 import AboutMe from './components/AboutMe'
 import Aframe from './components/Aframe'
-import WoodWorking from './components/WoodWorking'
+import WoodWorking from './components/WoodWorking';
 
 function App() {
   
