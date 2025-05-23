@@ -13,7 +13,7 @@ function AboutMe() {
         </div>
       </div>
 
-      <div className="mt-4 relative flex justify-end">
+      <div className="mt-0 relative flex justify-end right-10">
         <img
           src="/images/Profile-white.png"
           alt="Profile"

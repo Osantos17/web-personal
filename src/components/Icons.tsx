@@ -14,12 +14,12 @@ function Icons() {
         <img
           src="/images/git.png"
           alt="git"
-          className="h-5 w-5 md:h-10 md:w-10 my-3"
+          className="h-5 w-5 md:h-10 md:w-10 my-4"
         />
         <img
           src="/images/gmail.png"
           alt="gmail"
-          className="h-5 w-5 md:h-10 md:w-10 mb-3"
+          className="h-5 w-5 md:h-10 md:w-10 mb-4"
         />
         <img
           src="/images/AFrame.png"

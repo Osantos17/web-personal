@@ -1,7 +1,7 @@
 import './App.css'
 import AboutMe from './components/AboutMe'
 import Aframe from './components/Aframe'
-import Woodworking from './components/Woodworking'
+import Woodworking from './components/WoodWorking'
 
 function App() {
   
@@ -15,7 +15,7 @@ function App() {
         <div className='mt-10 lg:mt-30'>
           <Aframe />
         </div>
-        <div>
+        <div className='mt-12'>
           <Woodworking />
         </div>
       </div>

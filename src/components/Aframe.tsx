@@ -17,7 +17,7 @@ function AFrame() {
           modules={[Scrollbar]}
           className="mySwiper"
         >
-          <SwiperSlide className="flex justify-evenly items-center my-2">
+          <SwiperSlide className="flex justify-evenly items-center mb-4">
             <img
               src="/images/IphonePlusAFrame.png"
               alt="AFrame"
@@ -25,7 +25,7 @@ function AFrame() {
             />
           </SwiperSlide>
 
-          <SwiperSlide>
+          <SwiperSlide className="flex justify-evenly items-center mb-4">
           <img
               src="/images/MapAndLocal.png"
               alt="AFrame"
@@ -41,17 +41,8 @@ function AFrame() {
         </div>
 
         </div>
-        {/* <div className="text-white mb-2 mt-3 text-center lg:text-4xl">
-        A-FRAME: SURF FORECAST
-      </div> */}
       </div>
-      <div className="mt-8">
-        <img
-          src="/images/AFrame.png"
-          alt="AFrame"
-          className="max-h-35 w-auto md:max-h-95"
-        />
-      </div>
+      
     </div>
   )
 }
