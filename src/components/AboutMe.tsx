@@ -5,7 +5,7 @@ function AboutMe() {
   return (
     <div className="mx-0 mt-0 aboutMe md:mt-20 md:mx-12 ">
       <div className="flex flex-row">
-        <p className="text-white text-xs text-left max-w-70 lg:text-2xl lg:max-w-2xl ">
+        <p className="text-white text-xs text-left max-w-70 lg:text-2xl lg:max-w-2xl lg:leading-relaxed">
         As an Architectural Designer, I’m passionate about turning ideas into tangible form. My growing interest in digital design led me to create A-Frame, a surf forecast app now on iOS. From branding to development, the process sparked a new passion for UI/UX and inspired me to pursue it as a career.
         </p>
         <div className="ml-auto mr-2">
@@ -13,7 +13,7 @@ function AboutMe() {
         </div>
       </div>
 
-      <div className="bottom-14 relative flex justify-end right-10">
+      <div className="bottom-16 relative flex justify-end right-10 lg:right-24 lg:bottom-24">
         <img
           src="/images/Profile-white.png"
           alt="Profile"
