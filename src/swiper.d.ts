@@ -1,2 +1,3 @@
-declare module 'swiper/swiper.min.css';
-declare module 'swiper/modules/scrollbar/scrollbar.min.css';
+declare module 'swiper/css';
+declare module 'swiper/css/scrollbar';
+declare module 'swiper/css/navigation';
