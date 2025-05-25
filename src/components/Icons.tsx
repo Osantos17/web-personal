@@ -1,4 +1,5 @@
 function CopyEmail() {
+
   const handleCopy = () => {
     navigator.clipboard.writeText('santos.orlando@gmail17.com')
       .then(() => alert('Copied'))
@@ -17,6 +18,7 @@ function CopyEmail() {
 }
 
 function Icons() {
+
   return (
     <div>
       <div>
