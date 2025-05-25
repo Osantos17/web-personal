@@ -16,20 +16,16 @@ body {
   padding: 0;
 }
 
-.woodWorking .mySwiper {
-  align-items: end;
-  width: 80%;
-  height: 100%;
+.woodImages .mySwiper {
+  width: 100%; 
+  height: auto;
 }
 
-.swiper-slide {
-  text-align: end;
-  font-size: 18px;
-
-
+.woodImages .swiper-slide {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-bottom: 20px; 
 }
 
 .swiper-slide img  {
