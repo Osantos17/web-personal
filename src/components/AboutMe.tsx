@@ -4,6 +4,9 @@ import Icons from "./Icons";
 function AboutMe() {
   return (
     <div className="aboutMe lg:mt-20 lg:mx-12 ">
+      <div className="header text-white text-4xl pb-5">
+        DESIGNER / DEVELOPER
+      </div>
       <div className="flex flex-row">
         <p className="text-white text-xs text-left max-w-70 md:max-w-110 md:text-lg lg:text-2xl lg:max-w-2xl lg:leading-relaxed">
         As an Architectural Designer, I’m passionate about turning ideas into tangible form. My growing interest in digital design led me to create A-Frame, a surf forecast app now on iOS. From branding to development, the process sparked a new passion for UI/UX and inspired me to pursue it as a career.
