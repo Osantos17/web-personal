@@ -1,23 +1,20 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Scrollbar } from 'swiper/modules'; 
+import { Scrollbar } from 'swiper/modules';
+import type { Swiper as SwiperType } from 'swiper';
 import 'swiper/css';
 import 'swiper/css/scrollbar';
 import './WoodWorking.css';
 import { useRef } from 'react';
 
 function WoodWorking() {
-  const swiperRef = useRef(null);
+  const swiperRef = useRef<SwiperType | null>(null);
 
   const handleNextClick = () => {
-    if (swiperRef.current?.swiper) {
-      swiperRef.current.swiper.slideNext();
-    }
+    swiperRef.current?.slideNext();
   };
 
   const handlePrevClick = () => {
-    if (swiperRef.current?.swiper) {
-      swiperRef.current.swiper.slidePrev();
-    }
+    swiperRef.current?.slidePrev();
   };
 
   return (
@@ -32,34 +29,94 @@ function WoodWorking() {
           grabCursor={true}
           modules={[Scrollbar]}
           className="mySwiper"
-          ref={swiperRef}
+          onSwiper={(swiper) => (swiperRef.current = swiper)}
           loop={true}
         >
-          {[
-            { src: "/images/Crib.png", alt: "Crib" },
-            { src: "/images/Coop.png", alt: "Coop" },
-            { src: "/images/FirePit.png", alt: "FirePit" },
-            { src: "/images/Table.png", alt: "Table" },
-            { src: "/images/Tower.png", alt: "Tower" },
-          ].map((img, index) => (
-            <SwiperSlide key={index}>
-              <div className="relative">
-                <img
-                  src={img.src}
-                  alt={img.alt}
-                  className="woodworking-image"
-                />
-                <div 
-                  className="absolute left-0 top-0 w-1/2 h-full cursor-pointer"
-                  onClick={handlePrevClick}
-                ></div>
-                <div 
-                  className="absolute right-0 top-0 w-1/2 h-full cursor-pointer"
-                  onClick={handleNextClick}
-                ></div>
-              </div>
-            </SwiperSlide>
-          ))}
+          <SwiperSlide>
+            <div className="relative">
+              <img
+                src="/images/Crib.png"
+                alt="Crib"
+                className="woodworking-image"
+              />
+              <div 
+                className="absolute left-0 top-0 w-1/2 h-full cursor-pointer"
+                onClick={handlePrevClick}
+              />
+              <div 
+                className="absolute right-0 top-0 w-1/2 h-full cursor-pointer"
+                onClick={handleNextClick}
+              />
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className="relative">
+              <img
+                src="/images/Coop.png"
+                alt="Coop"
+                className="woodworking-image"
+              />
+              <div 
+                className="absolute left-0 top-0 w-1/2 h-full cursor-pointer"
+                onClick={handlePrevClick}
+              />
+              <div 
+                className="absolute right-0 top-0 w-1/2 h-full cursor-pointer"
+                onClick={handleNextClick}
+              />
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className="relative">
+              <img
+                src="/images/FirePit.png"
+                alt="FirePit"
+                className="woodworking-image"
+              />
+              <div 
+                className="absolute left-0 top-0 w-1/2 h-full cursor-pointer"
+                onClick={handlePrevClick}
+              />
+              <div 
+                className="absolute right-0 top-0 w-1/2 h-full cursor-pointer"
+                onClick={handleNextClick}
+              />
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className="relative">
+              <img
+                src="/images/Table.png"
+                alt="Table"
+                className="woodworking-image"
+              />
+              <div 
+                className="absolute left-0 top-0 w-1/2 h-full cursor-pointer"
+                onClick={handlePrevClick}
+              />
+              <div 
+                className="absolute right-0 top-0 w-1/2 h-full cursor-pointer"
+                onClick={handleNextClick}
+              />
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className="relative">
+              <img
+                src="/images/Tower.png"
+                alt="Tower"
+                className="woodworking-image"
+              />
+              <div 
+                className="absolute left-0 top-0 w-1/2 h-full cursor-pointer"
+                onClick={handlePrevClick}
+              />
+              <div 
+                className="absolute right-0 top-0 w-1/2 h-full cursor-pointer"
+                onClick={handleNextClick}
+              />
+            </div>
+          </SwiperSlide>
         </Swiper>
       </div>
     </div>
