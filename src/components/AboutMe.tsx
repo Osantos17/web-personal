@@ -4,7 +4,7 @@ import Icons from "./Icons";
 function AboutMe() {
   return (
     <div className="aboutMe lg:mt-20 lg:mx-12 ">
-      <div className="header text-white text-4xl pb-5">
+      <div className="header text-white text-xl pb-1 lg:pb-5 lg:text-4xl">
         DESIGNER / DEVELOPER
       </div>
       <div className="flex flex-row">
